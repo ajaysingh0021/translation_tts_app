@@ -28,8 +28,8 @@ A powerful web application built with Streamlit that translates text into 20+ la
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/ajaysingh0021/translation-tts-app.git
-   cd translation-tts-app
+   git clone https://github.com/ajaysingh0021/translation_tts_app.git
+   cd translation_tts_app
    ```
 
 2. **Install dependencies**
@@ -90,20 +90,23 @@ A powerful web application built with Streamlit that translates text into 20+ la
 ## 📦 Project Structure
 
 ```
-translation-tts-app/
+translation_tts_app/
 │
-├── app.py                 # Main application file
-├── requirements.txt       # Python dependencies
-├── README.md             # Project documentation
-├── DOCUMENTATION.md      # Detailed technical documentation
-└── .gitignore           # Git ignore file
+├── translation_tts_app.py     # Main application file
+├── docs/		       # Folder with documents
+├── requirements.txt           # Python dependencies
+├── README.md                  # Project documentation
+├── DOCUMENTATION.md           # Detailed technical documentation
+├── .gitignore                 # Git ignore file
+└── test_translation_upload_feature.txt     # Test file to check upload feature
+
 ```
 
 ## 🔧 Configuration
 
 ### API Key Setup
 
-1. Visit [Google AI Studio](https://makersuite.google.com/app/apikey)
+1. Visit [Google AI Studio](https://aistudio.google.com/app/api-keys)
 2. Sign in with your Google account
 3. Click "Create API Key"
 4. Copy and paste the key into the app's sidebar
@@ -180,5 +183,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Ajay - ajaysingh002@gmail.com
 
-Project Link: [https://github.com/ajaysingh0021/translation-tts-app](https://github.com/ajaysingh0021/translation-tts-app)
+Project Link: [https://github.com/ajaysingh0021/translation_tts_app](https://github.com/ajaysingh0021/translation_tts_app)
 
